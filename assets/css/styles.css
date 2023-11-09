@@ -437,7 +437,6 @@ body.dark-theme{
   background-color: var(--container-color);
   padding: 2rem;
   overflow: hidden;
-  border: 2px solid var(--border-color);
   transition: border .4s, background-color .4s;
 }
 .featured__img{
