@@ -1,0 +1,89 @@
+:root{
+  --background-color: #ecf0f3;
+  --Headline :#263959;
+  --SubHeading: #6d819c;
+  --HoverHeading: #584EFF;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hero {
+  position: relative;
+}
+.hero h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: var(--Headline);
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--Headline);
+}
+
+.hero h1 span {
+  color: #4F46E5;
+}
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero h2 span {
+  color: var(--Headline);
+}
+.hero p {
+  color: var(--SubHeading);
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.hero_btn {
+  margin-top: 20%;
+}
+.hero_btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
+  margin: 30px 0 30px 0;
+}
+.hero_btn button {
+  margin-right: 30px;
+}
+.hero_btn i {
+  font-size: 20px;
+}
+
+.hero_btn button img {
+  width: 20px;
+  height: 20px;
+}
+.hero .left {
+  margin-right: 10%;
+}
+.hero .right {
+  width: 40%;
+  position: relative;
+}
+.hero .right_img {
+
+  height: auto;
+  width: auto;
+
+}
+.hero .right_img img {
+  height: auto;
+  width: 100%;
+  margin-top: 20%;
+}
+@media (max-width: 768px) {
+  .hero .right,
+  .hero .left {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .hero .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+}
+
